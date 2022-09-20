@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.clear{
+	clear: both;
+}
+
+.box{
+	height: 200px;
+}
+
+.title ul{
+  	float: right;
+  	margin-top: 20px;
+  	margin-right: 80px;
+  	list-style-type: none;
+
+}
+
+.title ul li{
+	display: inline-block;
+	padding-right: 40px;
+	font-family: "Open Sans";
+	font-weight: 700;
+
+}
+
+.title li a{
+	text-decoration: none;
+	color:#363636;
+}
+
+.title li a:hover{
+	color: black;
+}
+
+.logo{
+	margin-left: 80px;
+	margin-top: 20px;
+	
+}
+
+.logo img{
+	width: 70px;
+}
+
+.logo img:hover{
+	width: 80px;
+	opacity: 80%;
+}	
+
+.mudarTema{
+	display:inline-block;
+	position: absolute;
+	top: 40px;
+	left: 180px;
+	background-color:#225b3b;
+	color: #d1d3d2;
+	width: 110px;
+	height: 32px;
+	border-radius: 20px;
+	border: none;
+	font-size: 16px;
+	font-family: "Lato";
+	font-weight: 500;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+.box2{
+	margin-top: -40px;
+}
+
+.slogan{
+	margin-left: 80px;
+}
+
+.slogan h1{
+	font-size:48px;
+	color:#363636;
+	font-family: "Lato";
+	font-weight: 900;
+}
+
+
+.slogan span{
+	font-size: 52px;
+	font-family: "Lato";
+	font-weight: 900;
+}
+
+.slogan p{
+	margin-top: 20px;
+	width: 400px;
+	font-family: "Lato";
+	font-weight: 500;
+	text-align: justify;
+}
+
+.button button{
+	margin-top: 25px;
+	margin-left: 80px;
+	background-color:#225b3b;
+	color: #d1d3d2;
+	width: 110px;
+	height: 32px;
+	border-radius: 20px;
+	border: none;
+	font-size: 16px;
+	font-family: "Lato";
+	font-weight: 500;
+	padding-bottom: 4px;
+	cursor: pointer;
+
+}
+
+button:hover{
+	background-color:#2b8050;
+	color: white;
+}
+
+.box3{
+	margin-top:50px;
+	height: calc(100% - 200px);
+	position: relative;
+
+
+}
+
+.circle{
+	position: absolute;
+	right: -650px;
+	bottom:-450px;
+	width:1280px;
+	height:1280px;
+	border-radius: 50%;
+	background-color:#225b3b ;
+
+}
+
+.circle img{
+	position: relative;
+	width: 300px;
+	margin-top: -40px;
+	margin-left: 120px;
+
+}
+
+.socialmedia{
+	position: absolute;
+	right:670px;
+	top: 80px;
+}
+.socialmedia img{
+	width: 14px;
+	display: block;
+	margin-top: 20px;
+
+}
+
+
+footer{
+	position: absolute;
+	bottom: 15px;
+	margin-left: 35%;
+	}
+
+footer img{
+	align-items: center;
+	width:50px;
+	padding-left: 40px;
+
+}
+
+footer img:hover{
+	width: 60px;
+	opacity: 80%;
+}
+
+
+/*----------------TEMA DARK-------------------*/
+
+.dark{
+	background: #121212;
+}
+
+.dark ul li a{
+	color: lightgray;
+}
+
+.dark ul li a:hover{
+	color: white;
+}
+.dark .slogan h1{
+	color: lightgray;
+}
+
+.dark .slogan p{
+	color: lightgray;
+}
+
+	

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+	<link rel="icon" type="imagem/png" href="assets/logo.png" />
+	<title>STARBUCKS</title>
+
+</head>
+<body>
+
+<header>
+
+<div class="box">	
+
+	<div class=title>
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Menu</a></li>
+			<li><a href="">What´s new</a></li>
+			<li><a href="">Contact Us</a></li>
+		</ul>
+
+	<div class="logo">
+	<a href="https://www.starbucksathome.com/br" target="_blank"><img src="assets/logo.png"></a>	
+	<button class="mudarTema" type="button" onClick="mudarTema()"> Mudar Tema</button>
+	</div><!--logo-->	
+		
+		<div class="clear"></div><!--clear-->
+	</div><!--title-->	
+</div><!--box-->
+</header>
+
+<div class="box2">
+	<div class="slogan">
+	<h1>It´s not just Coffee<br>
+		It´s <span style="color: #225b3b;">Starbucks</span>
+	</h1>
+	<p>It takes many hands to craft the perfect cup of coffee – from the farmers who tend to the red-ripe coffee cherries, to the master roasters who coax the best from every bean, and to the barista who serves it with care. We are committed to the highest standards of quality and service, embracing our heritage while innovating to create new experiences to savor.</p>
+</div><!--slogan-->	
+
+<div class="button">
+	<button type="button" onclick="alert('This will be soon updated!!!')">Learn More</button>
+</div><!--button-->	
+</div><!--box2-->	
+
+
+<div class="box3">
+ 	<div class="circle">
+ 		<img src="assets/img1.png">
+ 	 	<div class="socialmedia">
+ 	 		<a href="https://www.facebook.com/Starbucks" target="_blank"><img src="assets/facebook.png"></a>
+ 	 		<a href="https://twitter.com/StarBucks" target="_blank"><img src="assets/twitter.png"></a>
+ 	 		<a href="https://www.instagram.com/starbucks/" target="_blank"><img src="assets/instagram.png"></a>
+			
+		</div><!--socialmedia-->
+	</div><!--circle-->	
+
+	<div class="clear"></div><!--clear--> 	
+ </div><!--box3-->	
+
+
+<footer>
+	<div class="thumbnail">
+		<a href="https://www.starbucks.com/menu/product/424/iced" target="_blank"><img src="assets/thumb1.png"></a>
+		<a href="https://www.starbucks.com/menu/product/425/iced" target="_blank"><img src="assets/thumb2.png"></a>
+		<a href="https://www.starbucks.com/menu/product/428/iced" target="_blank"><img src="assets/thumb3.png"></a>
+	</div><!--thumbnail-->
+</footer>
+
+
+<script >
+//VERIFICAR PARA TEMA DARK
+
+function mudarTema(){
+	document.body.classList.toggle("dark");
+}
+
+</script>
+
+
+</body>
+</html>
